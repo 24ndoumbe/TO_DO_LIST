@@ -8,10 +8,10 @@ L'utilisateur peut ajouter, marquer comme terminées, filtrer et supprimer des t
 1. Télécharger les fichiers du projet (HTML, CSS, et JavaScript).  
 2. Ouvrir le fichier `do.html` dans un navigateur web.  
 3. Interagir avec l'application :  
-   - Ajouter une tâche en écrivant une description et en cliquant sur le bouton "Ajouter".  
-   - Cocher une tâche pour la marquer comme terminée.  
-   - Filtrer les tâches (toutes, terminées, non terminées) avec le menu déroulant.  
-   - Supprimer une tâche en cliquant sur le bouton "Supprimer".  
+   - ajouter une tâche en écrivant une description et en cliquant sur le bouton "Ajouter".  
+   - cocher une tâche pour la marquer comme terminée.  
+   - filtrer les tâches (toutes, terminées, non terminées) avec le menu déroulant.  
+   - supprimer une tâche en cliquant sur le bouton "Supprimer".  
 
 ## Prérequis et outils utilisés
 - **Prérequis** : Aucun logiciel ou serveur particulier n'est nécessaire. Un simple navigateur suffit.  
