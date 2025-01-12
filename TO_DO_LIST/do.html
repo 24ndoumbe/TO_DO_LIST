@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="do.css">
+    
+    <title>To Do List</title>
+</head>
+<body>
+
+
+    <div id="app">
+        <button id="ajouterTache">Ajouter une tâche</button>
+        <input type="text" id="champTache" placeholder="">
+
+    <table id="tableTaches" >
+
+        <caption>Liste des tâches</caption>
+        <thead>
+
+          <tr>
+            <th>Terminée</th>
+            <th>numero</th>
+            <th>Libelle</th>
+          </tr>
+          
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    </div>
+
+    <label for="taskFilter">Filtrer les tâches :</label>
+    <select id="taskFilter">
+        <option value="all">Toutes les tâches</option>
+        <option value="completed">Tâches terminées</option>
+        <option value="uncompleted">Tâches non terminées</option>
+    </select>
+
+    <div id="tasksContainer"></div> 
+    
+    <script src="do.js"></script>
+</body>
+</html>
